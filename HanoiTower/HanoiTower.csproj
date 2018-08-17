@@ -1,10 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Remove="EmptyClass.cs" />
     <Compile Remove="MomorisedRecursableFuncExtensions.cs" />
@@ -12,5 +10,7 @@
   <ItemGroup>
     <PackageReference Include="csharp-monad" Version="1.0.1" />
     <PackageReference Include="AsyncEnumerator" Version="2.2.1" />
+    <PackageReference Include="CSharp.Curry" Version="1.0.0" />
+    <PackageReference Include="Funcursive" Version="1.0.0.1" />
   </ItemGroup>
 </Project>
