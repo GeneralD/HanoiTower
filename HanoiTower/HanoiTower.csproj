@@ -9,8 +9,8 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="csharp-monad" Version="1.0.1" />
-    <PackageReference Include="AsyncEnumerator" Version="2.2.1" />
     <PackageReference Include="CSharp.Curry" Version="1.0.0" />
     <PackageReference Include="Funcursive" Version="1.0.0.1" />
+    <PackageReference Include="System.Interactive" Version="3.2.0" />
   </ItemGroup>
 </Project>
